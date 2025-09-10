@@ -35,16 +35,16 @@ It lets you **list currencies, get live exchange rates, and convert amounts** be
    ```bash
    CURRENCY_API_KEY=your_api_key_here
 
-**usage:**
-python currency_converter.py
+## usage:
+      python currency_converter.py
+      
+      what you will see:
+      Welcome to the currency converter!
+      List - lists the different currencies
+      Convert - convert from one currency to another
+      Rate - get the exchange rate of two currencies
 
-what you will see:
-Welcome to the currency converter!
-List - lists the different currencies
-Convert - convert from one currency to another
-Rate - get the exchange rate of two currencies
-
-**The structure:**
+## ⚙️The structure:
 ```bash
 currency-converter/
 │── currency_converter.py   # main script
