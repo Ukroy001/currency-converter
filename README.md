@@ -21,18 +21,21 @@ It lets you **list currencies, get live exchange rates, and convert amounts** be
    ```bash
    git clone https://github.com/Ukroy001/currency-converter.git
    cd currency-converter
-2.Create and activate a virtual environment (recommended)
-python -m venv venv
-source venv/bin/activate   # macOS/Linux
-venv\Scripts\activate      # Windows
+2. **Create and activate a virtual environment (recommended)**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate   # macOS/Linux
+   venv\Scripts\activate      # Windows
 
-3.Install dependencies
-pip install -r requirements.txt
+3. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
 
-4.Create a .env file in the project root and add your API key:
-CURRENCY_API_KEY=your_api_key_here
+4. **Create a .env file in the project root and add your API key:**
+   ```bash
+   CURRENCY_API_KEY=your_api_key_here
 
-usage:
+**usage:**
 python currency_converter.py
 
 what you will see:
@@ -41,7 +44,8 @@ List - lists the different currencies
 Convert - convert from one currency to another
 Rate - get the exchange rate of two currencies
 
-The structure:
+**The structure:**
+```bash
 currency-converter/
 │── currency_converter.py   # main script
 │── .env                    # stores your API key (not pushed to GitHub)
